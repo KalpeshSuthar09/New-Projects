@@ -2,4 +2,4 @@
 
 WELCOME OTO MY GITHUB PAGE
 
-Where you can find my all projects
+Where you can find my all projects source code
