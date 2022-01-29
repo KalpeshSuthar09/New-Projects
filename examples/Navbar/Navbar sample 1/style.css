@@ -8,11 +8,12 @@
 
 body {
   font-size: 20px;
+  overflow: hidden;
   font-family: "Be Vietnam Pro", sans-serif;
   color: #0b66c0;
   line-height: 1.5;
   font-weight: 500;
-  background: url("bg/pexels-jae-park-3802510.jpg") no-repeat;
+  background: url("bg/pexels-jae-park-3802510.jpg") no-repeat 1px;
 }
 
 .navbar {
