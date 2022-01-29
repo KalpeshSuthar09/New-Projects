@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Playfair+Display:wght@600&family=Roboto:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #0b66c0;
+  line-height: 1.5;
+  font-weight: 500;
+  background: url("bg/pexels-jae-park-3802510.jpg") no-repeat;
+}
+
+.navbar {
+  height: 0rem;
+  min-height: 12vh;
+  padding: 2rem 2rem;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.navbar-brand {
+  overflow: hidden;
+  float: left;
+}
+
+.navbar-brand p {
+  position: relative;
+  font-size: 30px;
+  color: rgb(192, 43, 43);
+  font-weight: 900;
+  bottom: 10px;
+}
+
+.menu-item {
+  overflow: hidden;
+}
+
+.menu-item ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu-item ul li {
+  float: left;
+}
+
+.menu-item ul li a {
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 800;
+}
+
+.menu-item ul li a:hover {
+  color: #0b66c0;
+  width: 100%;
+}
+
+.home {
+  background-image: url("bg/pexels-jae-park-3802510.jpg") right bottom no-repeat;
+}
+
+.content {
+  overflow: hidden;
+  float: left;
+}
+
+.content h2 {
+  position: relative;
+  font-size: 40px;
+  margin: 13rem 2rem;
+  color: #111;
+  font-weight: 800;
+}
+
+button {
+  margin: 15rem 37rem;
+  color: #090909;
+  padding: 0.7em 1.7em;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
