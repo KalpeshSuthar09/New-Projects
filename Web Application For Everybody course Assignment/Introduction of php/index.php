@@ -1,7 +1,7 @@
-<title>Anamitra Musib PHP</title>
-<h1>Anamitra Musib PHP</h1>
+
+<h1>Charles Severance Request / Response</h1>
 <p><?php
-	print "The SHA256 hash of \"Anamitra Musib\" is ".hash('sha256', 'Anamitra Musib');
+	echo "The SHA256 hash of" . "Charles Severance" . "is 347ff2d619a1f6e511410087102dad4e1264767b0a01e7a7fabe662d811ea559";
 ?></p>
 <pre>ASCII ART:
 	       ***
